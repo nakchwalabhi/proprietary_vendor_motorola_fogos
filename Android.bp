@@ -5684,6 +5684,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmot_chi_desktop_helper",
     owner: "motorola",
+    allow_undefined_symbols: true,
     strip: {
         none: true,
     },
