@@ -56,6 +56,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.mot.eeprom.mot_gt24p256c_s5kjns_eeprom",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -109,6 +110,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.mot.eeprom.mot_gt24p64b_ov16a1q_eeprom",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -162,6 +164,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.mot.eeprom.mot_gt24p64b_s5k3p9_eeprom",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -215,6 +218,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.mot.eeprom.mot_sc202acs_otp",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -268,6 +272,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.flash.aw36514",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -321,6 +326,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.flash.ocp81375",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -374,6 +380,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.sensor.mot_ov16a1q",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -427,6 +434,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.sensor.mot_s5k3p9",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -480,6 +488,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.sensor.mot_s5kjns",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -533,6 +542,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.sensor.mot_sc202acs",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -753,6 +763,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.camx.chiiqutils",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -981,6 +992,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.node.dewarp",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1097,6 +1109,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.node.eisv2",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1154,6 +1167,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.node.eisv3",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1335,6 +1349,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.node.ml",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -1717,6 +1732,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.node.swregistration",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2417,6 +2433,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libdepthmapwrapper_secure",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2498,6 +2515,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.chiusecaseselector",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2553,6 +2571,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.anchorsync",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2610,6 +2629,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.arcrawpro",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2670,6 +2690,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.demux",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2727,6 +2748,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.frameselect",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2784,6 +2806,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.fusion",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2841,6 +2864,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.generic",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2899,6 +2923,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.gs.mannar",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -2973,6 +2998,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.hdr",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3031,6 +3057,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.mcreprocrt",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3088,6 +3115,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.memcpy",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3145,6 +3173,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.mfsr",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3202,6 +3231,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.mux",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3259,6 +3289,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.rawhdr",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3316,6 +3347,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.realtimeserializer",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3373,6 +3405,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.rt",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3430,6 +3463,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.rtmcx",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3487,6 +3521,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.serializer",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3544,6 +3579,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.feature2.swmf",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3601,6 +3637,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.settings.mannar",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3684,6 +3721,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qualcomm.mcx.distortionmapper",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3739,6 +3777,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qualcomm.mcx.linearmapper",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3796,6 +3835,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qualcomm.mcx.policy.mfl",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3853,6 +3893,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qualcomm.qti.mcx.usecase.extension",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3910,6 +3951,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "camera.qcom",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -3976,6 +4018,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "com.qti.chi.override",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4229,6 +4272,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libarcsoft_chi_utils",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4448,6 +4492,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libcamera_nn_stub",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4499,6 +4544,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libcamerapostproc",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4666,6 +4712,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libcamxifestriping",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4718,6 +4765,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libcamximageformatutils",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -4831,6 +4879,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libcamxswispiqmodule",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -5119,6 +5168,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libipebpsstriping",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -5170,6 +5220,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libipebpsstriping170",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -5221,6 +5272,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libjpege",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -5297,6 +5349,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmctfengine_stub",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -5350,6 +5403,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_bestats",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -5401,6 +5455,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_cac3",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -5501,6 +5556,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_lscv35",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -5606,6 +5662,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libmmcamera_pdpc",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -5853,6 +5910,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libopestriping",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -5928,6 +5986,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libqll10",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -6063,6 +6122,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "libtfestriping",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
@@ -6317,6 +6377,7 @@ cc_prebuilt_library_shared {
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.camera.postproc@1.0-service-impl",
     owner: "motorola",
+    check_elf_files: false,
     strip: {
         none: true,
     },
