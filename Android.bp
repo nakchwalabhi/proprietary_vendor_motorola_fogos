@@ -4,9 +4,16 @@
 
 soong_namespace {
     imports: [
+        "device/motorola/fogos",
+        "device/motorola/sm6375-common",
         "hardware/motorola",
+        "vendor/motorola/fogos",
         "vendor/motorola/sm6375-common",
-        "vendor/qcom/opensource/display",
+        "vendor/qcom/common/vendor/adreno/s",
+        "vendor/qcom/common/vendor/display/5.10",
+        "vendor/qcom/common/vendor/media/5.10",
+        "vendor/qcom/common/vendor/perf",
+        "vendor/qcom/common/vendor/wlan",
     ],
 }
 
